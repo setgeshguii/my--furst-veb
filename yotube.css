@@ -1,0 +1,91 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+.tolgoi {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  border: 0px;
+}
+.baruun {
+  width: 18vw;
+  height: 100vh;
+  flex: 1;
+}
+.undsen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.pro {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+}
+.tailbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bichleg {
+  width: 32%;
+  border-radius: 10%;
+  flex-direction: column;
+}
+.bichleg2 {
+  width: 100%;
+}
+.dood {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.zuun p {
+  display: flex;
+  align-items: center;
+
+  padding: 8px;
+
+  border-radius: 8px;
+}
+.zuun p:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  transition: 0.3 s;
+}
+.tailbariin-hemjee p,
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.deed {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 8px;
+}
+.deed p:hover {
+  background-color: #ededed;
+  cursor: pointer;
+  transition: 0.3 s;
+}
+
+.deed p {
+  padding: 9px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
+}
+.tolgoi .Search input {
+  border: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header input.Search {
+  border-radius: 20px;
+  padding: 8px;
+}

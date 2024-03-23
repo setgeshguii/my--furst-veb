@@ -1,0 +1,24 @@
+.backgroundcolor {
+  background-color: #6c757d;
+
+  color: whitesmoke;
+}
+
+.header {
+  background-color: #adb5bd;
+  display: flex;
+  align-items: flex-start;
+  gap: 299px;
+}
+
+.header a {
+  color: whitesmoke;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+
+  background-color: #778da9;
+  color: whitesmoke;
+}

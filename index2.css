@@ -1,0 +1,16 @@
+.huree {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+}

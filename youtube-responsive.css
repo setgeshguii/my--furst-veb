@@ -1,0 +1,33 @@
+/* 320px — 480px: Mobile devices */
+@media screen and (min-width: 650px) and (max-width: 873px) {
+  .bichleg {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bichleg {
+    width: 95%;
+  }
+}
+/* 320px — 480px: Mobile devices */
+@media screen and (max-width: 480px) {
+}
+/* 481px — 768px: iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* 769px — 1200px: Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+}
+
+/* 1201px and more —  Extra large screens, Desktop */
+@media screen and (min-width: 453px) and (max-width: 1101px) {
+  .undsen .zuun {
+    width: 91px;
+  }
+  .undsen .zuun p {
+    display: flex;
+    flex-direction: column;
+    font-size: 16;
+  }
+}
